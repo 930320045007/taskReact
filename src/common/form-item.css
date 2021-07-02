@@ -1,0 +1,29 @@
+.multirow {
+  color: blue;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.multirow fieldset {
+  border-radius: 0;
+  border-top-color: transparent !important;
+}
+
+.multirow:first-of-type {
+  margin-top: 8px !important;
+}
+
+.multirow:first-of-type fieldset {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-color: rgba(0, 0, 0, 0.23) !important;
+}
+
+.multirow:last-of-type {
+  margin-bottom: 8px !important;
+}
+
+.multirow:last-of-type fieldset {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
